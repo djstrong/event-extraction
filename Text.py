@@ -23,3 +23,6 @@ class Text(object):
     
     def add_event(self, event):
         self.events[event.event_id] = event
+        
+    def add_relation(self, relation):
+        self.relations[(relation.event_id1, relation.event_id2)] = relation
