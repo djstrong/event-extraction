@@ -8,6 +8,7 @@ import csv
 from Event import Event
 from Text import Text
 from Relation import Relation
+import cPickle as pickle
 
 class Knowledge(object):
     '''
@@ -22,8 +23,17 @@ class Knowledge(object):
         self.texts = {}
     
     def import_data(self):
-        self.__import_events()
-        self.__import_relations()
+        try:
+            pkl_file = open('texts.pkl', 'rb')
+            self.texts = pickle.load(pkl_file)
+            pkl_file.close()
+        except IOError:
+            self.__import_events()
+            self.__import_relations()
+        
+            output = open('texts.pkl', 'wb')
+            pickle.dump(self.texts, output)
+            output.close()
     
     def __import_events(self):
         with open('events.csv', 'rb') as csvfile:
@@ -75,3 +85,20 @@ class Knowledge(object):
             for _, v2 in v.relations.iteritems():
                 print v2
             print
+            
+    def fitting_events(self, input):
+        for _,text in self.texts.iteritems():
+            for _,event in text.events.iteritems():
+                sim = event.similarity(input)
+                real_event = event.create_event(input)
+                if real_event.ok():
+                    #print event, sim
+                    #print real_event
+                    print real_event.trac()
+                
+    def fitting_texts(self, input):
+        for k,text in self.texts.iteritems():
+            l = 0.0
+            for _,event in text.events.iteritems():
+                l += event.similarity(input)
+            print k, float(l)/len(text.events)

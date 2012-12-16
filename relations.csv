@@ -1,0 +1,23 @@
+notatka,rodzaj,nr1,nr2,powiazanie
+1,NP,1,2,"wojsko, siły wojskowe, siły zbrojne, armia"
+1,PS,2,3,"wojsko, siły wojskowe, siły zbrojne, armia"
+,,,,
+2,NP,4,3,rycerz
+2,NP,4,1,organizator
+2,PS,1,2,osada
+,,,,
+4,NP,1,2,"reżyser, <imię i nazwisko>"
+,,,,
+5,NP,1,2,"<nazwa sztuki>, dramat, sztuka"
+,,,,
+6,NP,1,2,"inscenizacja, przedstawienie, dramat"
+,,,,
+7,NP,1,2,"przedstawienie, spektakl, sztuka, widowisko, inscenizacja"
+,,,,
+8,PS,2,1,zakładnik
+8,PS,3,1,"porywacz, uprowadziciel"
+,,,,
+9,PS,1,3,inscenizacja
+9,PS,2,3,"nagroda, trofeum"
+,,,,
+10,NP,1,2,"<nazwa sztuki>, inscenizacja"

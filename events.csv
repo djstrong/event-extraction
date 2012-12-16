@@ -1,0 +1,34 @@
+notatka,nr,sprawca,zdarzenie,obiekt,narzedzie
+1,1,organizator,"inscenizacja, inscenizować",bitwa,"wojsko, siły wojskowe, siły zbrojne, armia"
+1,2,"<nazwa państwa>, Polak, Jagiełło","walczyć, wojować",<nazwa państwa>,"wojsko, siły wojskowe, siły zbrojne, armia"
+1,3,"<nazwa państwa>, Polak, Jagiełło","zwyciężyć, wygrać, pokonać",<nazwa państwa>,"wojsko, siły wojskowe, siły zbrojne, armia"
+,,,,,
+2,1,organizator,"budować, wznosić, stawiać",osada,
+2,2,rycerz,"mieszkać, rezydować, zamieszkiwać, zamieszkać",osada,
+2,3,rycerz,"walczyć, wziąć udział","bitwa, inscenizacja",
+2,4,organizator,inscenizacja,bitwa,rycerz
+,,,,,
+3,1,"reżyser, <imię i nazwisko>",inscenizacja,"przedstawienie, spektakl, sztuka, widowisko, inscenizacja, dramat, sztuka, utwór dramatyczny","teatr, <nazwa teatru>"
+,,,,,
+4,1,"reżyser, <imię i nazwisko>","przedstawienie, przedstawić","opera, inscenizacja","zespół, grupa"
+4,2,"reżyser, <imię i nazwisko>",debiut,inscenizacja,
+,,,,,
+5,1,"reżyser, <imię i nazwisko>",inscenizacja,"<nazwa sztuki>, dramat, sztuka","teatr, <nazwa teatru>"
+5,2,"teatr, <nazwa teatru>",rozpocząć,sezon,"<nazwa sztuki>, sztuka, premiera"
+,,,,,
+6,1,organizator,"inscenizacja, przedstawienie","inscenizacja, przedstawienie, dramat","teatr, <nazwa teatru>"
+6,2,"teatr, <nazwa teatru>",rozpocząć,"<nazwa wydarzenia>, spotkania teatralne","inscenizacja, przedstawienie, dramat"
+,,,,,
+7,1,dyrekcja,inscenizacja,"przedstawienie, spektakl, sztuka, widowisko, inscenizacja",opera
+7,2,"teatr, <nazwa teatru>","inaugurować, rozpoczynać",sezon,inscenizacja
+,,,,,
+8,1,"porywacz, uprowadziciel",uwolnić,zakładnik,
+8,2,"porywacz, uprowadziciel",przetrzymywać,zakładnik,
+8,3,"porywacz, uprowadziciel","poddać się, złożyć broń",służby,
+,,,,,
+9,1,reżyser,"inscenizować, odegrać, inscenizacja","<nazwa sztuki>, inscenizacja","teatr, <nazwa teatru>"
+9,2,"krytyk, widz, recenzent","dać, przyznać","nagroda, trofeum",organizator
+9,3,inscenizacja,"otrzymać, dostać","nagroda, trofeum",organizator
+,,,,,
+10,1,"reżyser, <imię i nazwisko>",inscenizacja,"<nazwa sztuki>, inscenizacja",aktor
+10,2,"teatroman, recenzent, krytyk","chwalić, reklamować","<nazwa sztuki>, inscenizacja",
